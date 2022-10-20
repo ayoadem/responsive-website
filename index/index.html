@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="meta1">
+      <div class="name">
+        <a>ADEM</a>
+      </div>
+      <div class="meta">
+        <a>About</a>
+        <a>Services</a>
+        <a>Past Projects</a>
+        <a>Contact</a>
+      </div>
+      <div class="meta-mobile">
+        <div class="bars display">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="times">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-nav">
+      <a>About</a>
+      <a>Services</a>
+      <a>Past Projects</a>
+      <a>Contact</a>
+    </div>
+  </div>
+  <div class="main">
+   <div class="ff1">
+     <h1 class="ff2">My Projects</h1> 
+     <p class="meta2">I have worked on both design and software development projects; ranging from prototyping to actual programming.</p>
+     <p>My projects speaks for themselves</p> 
+    </div>
+    <div class="image">
+     <img src="../css/assets/first image.jpg" alt="Avatar"> 
+    </div>  
+  </div>
+  <div class="header2">
+   <div class="push">
+      <h2>Design and Software Projects</h2>
+      <button class="f2f">Contact Me</button>
+    </div>
+    <div class="image1">
+     <img src="../css/assets/second image.jpg" alt="Avatar2">
+     <img src="../css/assets/third image.jpg" alt="Avatar3">
+     <img src="../css/assets/fourth image.jpg" alt="Avatar4">
+    </div>
+    <div class="image2">
+     <img src="../css/assets/fifth image.jpg" alt="Avatar5">
+     <img src="../css/assets/sixth image.jpg" alt="Avatar6">
+     <img src="../css/assets/seventh image.jpg" alt="Avatar7"> 
+    </div> 
+  </div> 
+  <div class="fun">
+    
+   <div class="f1">
+    <div class="image8">
+      <img src="../css/assets/eight image.jpg" alt="Avatar8">
+    </div> 
+     <div class="f2">
+       <h2>You have an interesting project? I'm always open for freelancing projects.</h2>
+       <div class="f2-buttons">
+       <button class="f3">Contact Me</button>
+       <button  class="f4">
+         <img src="../css/assets/call icon.png" alt="Avatar10"> 
+         Call Me 
+       </button>
+       </div>
+      </div>
+      <div class="image9">
+        <img src="../css/assets/ninth image.jpg" alt="Avatar9">
+        </div>
+    </div>
+     
+    <div class="last">
+      <div class="phase">
+        <h3>Prompt me at:</h3>
+      </div>
+      <div class="f9">
+        <p>Skills@instincthub.com</p> 
+      </div>
+      <div class="img">
+        <img src="../css/assets/linkedin.png" alt="Avatar11">
+        <img src="../css/assets/facebook.png" alt="Avatar12">
+        <img src="../css/assets/twiter.png" alt="Avatar13">
+        <img src="../css/assets/instagram.png" alt="Avatar14">
+       
+      </div>
+      <div class="ending">
+        InctHub2020 
+      </div>
+    </div>
+
+
+
+    <script>
+      const bars = document.querySelector('.bars')
+      const times = document.querySelector('.times')
+      const toggleMenu = () => {
+        const menu = document.querySelector('.mobile-nav')
+        menu.classList.toggle('open')
+        bars.classList.toggle('display')
+        times.classList.toggle('display')
+      }
+      bars.addEventListener('click', toggleMenu)
+      times.addEventListener('click', toggleMenu)
+    </script>
+  </body>
+</html> 
